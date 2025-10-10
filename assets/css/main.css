@@ -3327,3 +3327,28 @@ input, select, textarea {
 			}
 
 		}
+
+/* CUSTOM RULE*/
+
+#main .inner{
+	padding-top: 4em !important
+}
+
+#header nav{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+#header nav ul li {
+    padding: 0 !important;
+}
+
+#pfpcontainer img{
+	width: 20%;
+	height: auto;
+	max-width: 250px;
+	min-width: 60px;
+
+	object-fit: cover;
+	display: block;
+}
